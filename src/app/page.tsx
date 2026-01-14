@@ -98,7 +98,7 @@ const FeaturesSection: React.FC<FeaturesProps> = ({ features }) => {
               transition={{ delay: index * 0.15 }}
             >
               <div className="h-12 w-12 rounded-full bg-blue-100 text-blue-500 flex items-center justify-center mb-4">
-                <feature.icon size={24} />
+                <feature.icon width={24} height={24} />
               </div>
               <h3 className="text-[clamp(1.25rem,3vw,1.75rem)] font-semibold text-gray-700 mb-2">{feature.title}</h3>
               <p className="text-[clamp(1rem,2vw,1.25rem)] text-gray-500">{feature.description}</p>
